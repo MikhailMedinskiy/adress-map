@@ -1,0 +1,44 @@
+/*--------------------------
+ reset
+--------------------------*/
+@import "_reset";
+
+/*--------------------------
+ FONTS
+--------------------------*/
+@import "_fonts";
+
+
+
+/*--------------------------
+ GLOBAl
+--------------------------*/
+
+body{
+	color: #000;
+	min-width: 320px;
+	background: #fff;
+	line-height: 1.6;
+	font-size: 16px;
+	height: 100%;
+	font-family: "LatoRegular", sans-serif;
+}
+
+#map{
+  width: 800px;
+  margin: 10px auto;
+  height: 400px;
+}
+
+.btns{
+	text-align: center;
+	margin: 20px;
+}
+
+.title{
+	font-size: 18px;
+	font-style: italic;
+}
+/*--------------------------
+ CUSTOM CODE GOES HERE
+--------------------------*/
